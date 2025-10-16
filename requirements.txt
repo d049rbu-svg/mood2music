@@ -1,19 +1,6 @@
-# --- Streamlit app runtime ---
 streamlit==1.38.0
-protobuf<5,>=3.20.0
-
-# --- Spotify SDK ---
 spotipy==2.23.0
-
-# --- NLP / モデル系（CPU想定）---
 transformers==4.44.2
-torch==2.2.2          # ← Python 3.11 で確実に入るCPU版
-huggingface-hub==0.24.6
-
-# 日本語BERT用（MeCab系）
-fugashi==1.3.0
-unidic-lite==1.0.8
-
-# 補助
-langdetect==1.0.9
-emoji==2.12.1
+torch==2.2.2           # 3.12 で動くCPU版ホイールあり
+sentencepiece==0.1.99  # 0.2.x はビルドが必要→失敗するので固定
+numpy<2.0              # torch 2.2 系は numpy<2 が安定
