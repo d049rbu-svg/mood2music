@@ -1,0 +1,7 @@
+streamlit==1.38.0
+spotipy==2.23.0
+transformers==4.44.2
+torch>=2.1.0
+sentencepiece==0.2.0
+langdetect==1.0.9
+emoji==2.12.1
