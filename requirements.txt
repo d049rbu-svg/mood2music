@@ -2,7 +2,7 @@ streamlit==1.38.0
 spotipy==2.23.0
 transformers==4.44.2
 torch==2.4.1
-sentencepiece==0.1.99
 safetensors==0.4.5
 huggingface_hub==0.24.6
 requests==2.32.3
+
